@@ -1,0 +1,24 @@
+#content{width:1000px;height:908px;margin:0px auto;border:1px solid #ddd;margin-top:170px;border-radius:15px;}
+#content #adv {width:661px;height:282px;padding:4px 4px;border:1px dashed red;float:left;position:relative;border-radius:10px;}
+#content #adv .Img_list{position:absolute;overfloat:hidden;/*将超出部分的图片隐藏，必须建立在定位之上，不加定位不起任何作用*/}
+#content #adv ul{width:100px;height:20px;padding:5px 13px;border-radius:15px;position:absolute;top:260px;left:270px;}
+#content #adv ul li{width:15px;height:15px;color:#fff;border:1px solid red;border-radius:15px;list-style-type:none;float:left; margin-right:2px;text-align:center;line-height:15px;color:#1f1f1f;font-size:14px;}
+#content #adv ul li.hover{background:#fff;}
+#content .ask{width:225px;height:290px;float:left;font-size:16px;margin-left:40px;}
+#content .ask .a_one a{text-decoration:none;display:block;width:110px;float:left;height:30px;}
+#content .ask .a_one img{margin:5px;}
+#content .ask b{color:#ff9900;}
+.clear{clear:both;}
+#content .student{width:1000px;height:424px;margin-top:15px;}
+#content .student .stu_left{width:660px;height:420px;float:left;}
+#content .show ul li{list-style:none;width:150px;height:120px;float:left;margin:4px;position:relative;}
+#content .show ul li img{width:109px;height:109px;margin:5px 28px;}
+#content .show ul li p{font-size:18px;margin-top:12px;}
+#content .student .stu_right{width:316px;float:right;}
+#content .student .stu_right .heart{margin-left:20px;font-size:16px;}
+#content .student .stu_right .heart ul li{margin-top:10px;}
+#content .leap{width:1000px;height:175px;border:1px solid #bcbcbc;border-radius:15px;}
+#content .leap .l_list ul li{list-style:none;float:left;font-size:12px;padding:8px 3px;}
+#content .leap .l_list ul li.list_hz{margin:0px 0px;width:105px;text-align:center;border-radius:15px;background:#938D8D;box-shadow:0px 0px 3px #2f2f2f;color:#fff;}
+#content .leap .l_list ul li.list_yq{margin:0px 8px;width:105px;text-align:center;border-radius:15px;background:#acacac;}
+#content .leap .l_comp ul li{list-style:none;float:left;width:160px;height:60px;margin:5px 19px;}

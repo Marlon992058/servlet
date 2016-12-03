@@ -1,0 +1,14 @@
+/*--------content start-------*/
+#content{width:1000px;height:900px;margin:0px auto;margin-top:170px;
+		border:1px solid #ddd;}
+#content table{font-size:16px;text-align:center;}
+#content table .td1{font-size:20px;color:red;font-weight:700;}
+#content table a{text-decoration:none;}
+#content table a img{border-radius:15px;}
+#content .c_time{width:1000px;height:184px;background:#ccffcc;}
+#content .c_time ul li{list-style:none;width:257px;height:184px;float:left;}
+#content .c_time ul li.img{width:220px;height:144px;padding-top:40px;
+		background:#fff;}
+#content .c_time ul li p{margin:25px 50px;line-height:1.7;}
+#content .c_time ul li p b{color:red;}
+#content .c_time ul li span{font-size:16px;font-weight:700;}

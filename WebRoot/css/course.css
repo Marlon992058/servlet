@@ -1,0 +1,15 @@
+/*--------content start-------*/
+#content{width:1000px;height:850px;margin:0px auto;border:1px solid #ddd;
+		margin-top:170px;border-radius:15px;}
+#content .cour{width:1000px;height:600px;}
+#content .cour h2{margin:0px 0px 5px 20px;}
+#content .cour span{display:block;border:1px solid #52A5A5;width:980px;
+			margin:0px auto;}
+#content .cour .main ul li{list-style:none;width:222px;height:270px;
+			float:left;margin:0px 15px 10px 10px;text-align:center;}
+#content .cour .main ul li:hover{background:#ccccff;}
+#content .cour .main ul li img{margin-top:10px;}
+#content .cour .main ul li p{margin:5px 15px;text-align:left;}
+.clear{clear:both;}
+#content .scroll{width:1000%;overflow:hidden;}
+#content .scroll ul li{list-style:none;float:left;}

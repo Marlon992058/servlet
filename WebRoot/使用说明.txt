@@ -1,0 +1,41 @@
+技术：JSP+Ajax+MySql
+运行调试环境：MyEclipse2014+MySql 6.0
+页面：
+	前台：stage文件下
+		页面构成：
+			book文件下：
+			about.jsp
+			course.jsp
+			enroll.jsp
+			index.jsp
+			java.jsp
+			regest.jsp
+			vip.jsp
+		VIP学员构成前台成员:keke、marlon 密码：统一12345678
+	后台管理：admin文件下
+		页面构成：
+			index.jsp
+			left.jsp
+			regest.jsp
+			syscome.jsp
+			updateUser.jsp
+			userInfo.jsp
+		后台管理员(1个)：marlon  管理员密码：marlon
+		
+		通用页面common：
+			bottom.jsp
+			head.jsp
+			
+		业务处理页面service：
+			addUser.jsp
+			admin.jsp
+			delete.jsp
+			logout.jsp
+			modifyUser.jsp
+			search.jsp
+			update.jsp
+			user.jsp
+			users.jsp
+			
+★★★★★：登录注意事项：必须成功登录前台VIP学员之后才可以登录后台进行管理
+

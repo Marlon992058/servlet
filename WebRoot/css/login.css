@@ -1,0 +1,26 @@
+	*{margin:0px; padding:0px;}
+	body{font-size:12px;font-family:"微软雅黑";}
+	#screen{height:663px;background:url("../images/bg.jpg") no-repeat center;}
+	#change{width:460;height:300px;position:relative;margin-left:440px;}
+	#change ul li{list-style:none;float:left;line-height:30px;padding:0px 20px;font-size:20px;}
+	#change ul li.hover{background:#86664d;color:#fff;}
+	#change .show{width:460px;height:300px;display:none;position:absolute;top:30px;}
+	#change .show ul{height:460px;height:300px;border:0px solid #86664d;background:#86664d;}
+	#change .show ul li{width:460px;height:300px;list-style:none;padding:0px;
+						margin:0px 16px 0px 0px;background:#86664d;}
+	#change .show ul li.hover{color:#000;}
+	#change .cjly{display:block;}
+	.main{width:460px;height:280px;border:1px solid #b09a83;}
+	.gl{background:#996633;}
+	.main ul li{width:460px;height:280px;list-style-type:none; background:#86664d;}
+	.messagebox{height:40px;margin-top:10px;}
+	.message{height:40px;text-align:center;color:red;font-size:16px;}
+	span{display:block;text-align:center;font-size:16px;margin-bottom:20px;}
+	span input{width:200px;height:32px;border-radius:5px;border:0px;}
+	label{margin:5px;text-align:center;}
+	label input{width:15px;height:15px;}
+	span input.but{width:80px;height:32px;border:1px;border-radius:8px;font-size:16px;margin-top:15px;}
+	span input.but:hover{background:#66ffcc;}
+	a{display:block-inline;width:80px;color:#000;border:1px solid red;text-decoration:none;border-radius:8px;
+	  padding:7px 25px;}
+	a:hover{background:#ccffff;border:1px dashed red;}

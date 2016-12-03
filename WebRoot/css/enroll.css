@@ -1,0 +1,7 @@
+/*--------content start-------*/
+#content{width:1000px;height:800px;margin:0px auto;border:1px solid #cdcdcd;
+		margin-top:170px;}
+#content .cont{width:940px;margin:25px auto;}
+#content .cont p{line-height:2;font-size:14px;}
+#content .cont b{font-size:16px;}
+#content .cont span{padding-left:30px;font-size:20px;color:red;}

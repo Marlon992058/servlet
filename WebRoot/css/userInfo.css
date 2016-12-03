@@ -1,0 +1,26 @@
+*{margin:0px;padding:0px;}
+body{font-size:12px;font-family:Œ¢»Ì—≈∫⁄;}
+.tz_table ul{width:100%;height:32px;text-aligin:center;line-height:32px;}
+.tz_table ul.tz_title{font-size:16px;font-weight:800;text-align: center;letter-spacing:1.6px;}
+.tz_table ul.tz_user_lists{text-indent:20px;}
+.tz_table ul li{list-style-type:none;border:1px solid #111;float:left;}
+.tz_table ul li.tz_u-id{width:4%;}
+.tz_table ul li.tz_u-account{width:12%;}
+.tz_table ul li.tz_u-type{width:18%;}
+.tz_table ul li.tz_u-pay{width:10%;}
+.tz_table ul li.tz_u-contact{width:15%;}
+.tz_table ul li.tz_u-jointime{width:16%;}
+.tz_table ul li.tz_u-option{width:23%;}
+.tz_table ul li.tz_u-option a{text-decoration:none;display:block;width:28%;float:left;text-align:left;margin:0px 2%;font-size:16px;
+	background:#4FE133;border-radius:6px;}
+.tz_table ul li.tz_u-option a:hover{background:pink;color:#141414;font-size:20px;}
+.clear{clear:both;}
+/*∑÷“≥*/
+#page{margin:8px 0px 0px 710px;width: 465px;height: 40px;}
+#page .pagination{font-size:12px;}
+#page .pagination a{text-decoration:none;border:solid 1px #ccc;color:#999;}
+#page .pagination a,.pagination span{display:block;float:left;padding:0.3em 0.5em;margin-right:5px;margin-bottom:5px;min-width:1em;text-align:center;}
+#page .pagination .current{background:#999;color:#fff;border:solid 1px #ccc;}
+#page .pagination .current.prev,.pagination .current.next{color:#999;border-color:#999;background:#fff;}
+#page .tm_psize_go{padding:5px;margin-right:4px; float:left;height:25px;line-height:25px;position:relative;border:1px solid #ccc;}
+#page #tm_pagego{height:24px;line-height:24px;width:30px;float:left;text-align:center;border:1px solid #ccc;}

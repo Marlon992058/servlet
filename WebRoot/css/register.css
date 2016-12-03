@@ -1,0 +1,17 @@
+*{margin:0;padding:0;}
+body{font-size:14px;font-family:微软雅黑;}
+img{border:0px;}
+/*--------content start-------*/
+.screen{height:663px;background:url("../images/bg.jpg") no-repeat center;}
+.screen .title{width:420px;height:120px;margin:0px auto;}
+.screen .title h1{font-family:华文新魏;text-align:center;}
+.screen .main{width:360px;height:440px;border:1px solid #b09a83;margin:0px auto;position: absolute;
+  top: 90px; right: 455px;}
+.screen .main ul li{width:300px;height:440px;list-style-type:none;box-shadow:0px 0px 30px #000; background:#86664d;border-radius:15px;padding-left:60px;}
+.screen #main ul li form .message{width:360px;height:40px;border:1px solid green;}
+.screen #main ul li form table{width:360px;height:360px;text-align:center;font-size:16px;font-family:华文新魏;}
+.screen .main ul li form table tr{height:40px;}
+.screen .main ul li form table tr td input{border-radius:4px;border:0px;}
+.screen .main ul li form table tr td input.txt{width:150px;height:30px;}
+.screen .main ul li form table tr td input.tj{width:100px;height:30px;font-size:20px;font-family:华文新魏;border-radius:8px;margin-right:-30px;}
+select{width:150px;height:30px;font-size:18px;font-family:华文新魏;}

@@ -1,0 +1,38 @@
+.top{width:100%;height:150px;background:url("/marlon/images/t_bg.JPG");position:static;top:0px;left:0px;z-index:100;}
+.top .head{width:1000px;height:109px;margin:0px auto;}
+.top .head .logo{float:left;}
+.top .head .right{float:right;}
+.clear{clear:both;}
+.top .sxt_nav{width:1100px;height:40px;margin:0px auto;}
+.top .sxt_nav ul li{list-style:none;float:left;margin-top:0px;}
+.top .sxt_nav ul li a{text-decoration:none;display:block;padding:3px 28px;font-size:14px;color:#fff;line-height:32px;}
+.top .sxt_nav .user{width:320px;height:35px;float:right;font-size:16px;color:#e5e5e5;line-height:34px;margin-left:10px;}
+.top .sxt_nav .user b{font-size:24px;color:rgb(56, 203, 102);}
+.top .sxt_nav .user a{text-decoration:none;color:gray;}
+.top .sxt_nav .user a:hover{color:red;}
+#contentbox{color:#141414;}
+.input{height: 32px;border: 1px solid #ccc;border-radius:1px;width:240px;color:#141414;}
+.content{font-size: 16px;}
+.layer_icon{ background:url("/marlon/images/b_layer.png") no-repeat; display:inline-block;}
+.w460{width: 460px;}
+.fr{float:right}
+.fl{float:left}
+/*弹出通用样式*/
+.b_l{border-radius:4px; box-shadow:1px 2px 4px #6c6e72;-moz-box-shadow:1px 2px 4px #6c6e72;-webkit-box-shadow:1px 2px 4px #6c6e72;background:#fff;position:fixed;z-index:100}
+/*标题*/
+.bcom_ti{ background:#f4f4f4;border-bottom:1px solid #e4e4e4; border-radius:4px 4px 0 0; height:46px; line-height:44px;padding:0 15px;}
+.bide{ background-position:0 0;width:22px; height:22px;margin-top:11px;}
+.bide:hover{background-position:-23px 0;}
+/*单独样式（评论删除）*/
+.bcom_cent{padding:40px 0 30px}
+.bcomti{ font-size:18px;text-align:center; color:#000}
+.bcoma{margin:auto;width:180px;}
+.bcoma a{ width:74px; height:30px; line-height:25px; border-radius:4px; margin:30px 6px 0; color:#fff; text-align:center; display:inline-block}
+.bc_abut1{ background:#5580fb}
+.bc_abut1:hover{background:#4e79f1;}
+.bc_abut2{ background:#cacaca}
+.bc_abut2:hover{background:#c2c0c0;}
+.tmui-overlay{width:100%;height:100%;background-color:#000;position:absolute;top:0;left:0;z-index:99;filter:alpha(opacity=58);-moz-opacity:0.58;-khtml-opacity:0.58;opacity:0.58;}
+.main_logs{width:700px;height:350px;margin:0px auto;display:none;background:#fff;}
+.logsTitle{background: #fff;width:680px;height:35px;padding:10px;margin:0px auto;text-align:center;line-height:35px;font-size:22px;font-weight:600;color:#111;}
+.comment{padding:8px 15px;padding: 6px 15px;background:rgb(136, 239, 85);border-radius:10px;font-size:14px;color:#111;margin:8px 0px 0px 630px;}

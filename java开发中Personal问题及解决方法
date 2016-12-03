@@ -1,0 +1,17 @@
+一：jsp
+	1：在jsp页面包含html页面时出现的乱码问题如何解决
+		在web.xml中配置：
+			<jsp-config>
+			    <jsp-property-group>
+			        <display-name>JSPConfiguration</display-name>
+			        <url-pattern>*.html</url-pattern>
+			        <el-ignored>true</el-ignored>
+			        <page-encoding>UTF-8</page-encoding>
+			        <scripting-invalid>false</scripting-invalid>
+			        <include-prelude></include-prelude>
+			        <include-coda></include-coda>
+			    </jsp-property-group>
+			</jsp-config>
+	2：编译运行时报错
+	com.mysql.jdbc.exceptions.MySQLSyntaxErrorException:
+	Field 'id' doesn't have a default value:设置了该字段为非空，但是我们没有设置默认值造成的。====给主键加上自动递增

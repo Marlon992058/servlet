@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:12px;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:none;}
+.ht_icon{ background-image:url(../images/ht_icon.png); background-repeat:no-repeat;}
+#ht_content{ width:100%; position:relative; background:#282828;}
+/*ht_left start*/
+#ht_left{ width:200px; background:#282828; z-index:9;position:fixed;_position:absolute;top:0;_top:expression(eval(document.documentElement.scrollTop+0));left:0;}
+.ht_logo{ width:100%; height:125px; border-bottom:1px solid #000000; background:url(../images/logo.png) no-repeat center;}
+.htl_dh{ width:100%; border-bottom:1px solid #414141; border-top:1px solid #414141;}
+.htl_dh dl{ width:100%; height:52px; border-bottom:1px solid #000000; border-top:1px solid #414141;}
+.htl_dh dl:hover,.htl_dh dl.select{ background:#28b779;}
+.htl_dh dt{ width:160px; margin-left:30px; float:left;}
+.htl_dh dt a{ display:block; font-size:14px; color:#ffffff;}
+.htl_dh dt span{ display:block; margin-top:18px; float:left;}
+.htl_dh dt span.icon1{ width:17px; height:16px; background-position:-233px -52px;}
+.htl_dh dt span.icon2{ width:16px; height:14px; background-position:-255px -52px; margin-top:20px;}
+.htl_dh dt span.icon3{ width:16px; height:16px; background-position:-212px -52px;}
+.htl_dh dt span.icon4{ width:16px; height:16px; background-position:-275px -52px;}
+.htl_dh dt span.icon5{ width:17px; height:16px; background-position:-295px -52px;}
+.htl_dh dt span.icon6{ width:19px; height:6px; background-position:-316px -52px; margin-top:24px;}
+.htl_dh dt p{ line-height:52px; float:left; padding-left:8px;}
+.htl_dh dd{ display:none; width:6px; height:11px; background-position:-470px -52px; margin-top:21px; float:right;}
+.htl_dh dl.select dd{ display:block;}
+/*end ht_left*/
+
+/*htr_dh start*/
+#htr_dh{ width:100%; height:76px; background:#2f3437; z-index:1; position:relative;}
+.htr_dhl{ width:auto; height:76px; border-left:1px solid #000000; border-right:1px solid #414141; overflow:hidden; margin-left:200px;}
+.htr_dhl li{ width:110px; height:76px; border-left:1px solid #414141; border-right:1px solid #000000; float:left;}
+.htr_dhl li a{ display:block; width:100%; height:76px; font-size:12px; color:#838383;}
+.htr_dhl li a:hover,.htr_dhl li a.select1{ color:#ffffff;}
+.htr_dhl li a p{ width:100%; height:24px; text-align:center;}
+.htr_dhl li a span.icon7{ display:block; width:18px; height:17px; background-position:0px 0px; margin:9px auto 0px;}
+.htr_dhl li a:hover span.icon7,.htr_dhl li a.select1 span.icon7{ display:block; width:18px; height:17px; background-position:0px -25px; margin:9px auto 0px;}
+.htr_dhl li a span.icon8{ display:block; width:18px; height:15px; background-position:-24px 0px; margin:11px auto 0px;}
+.htr_dhl li a:hover span.icon8,.htr_dhl li a.select1 span.icon8{ display:block; width:18px; height:15px; background-position:-24px -25px; margin:11px auto 0px;}
+.htr_dhl li a span.icon9{ display:block; width:16px; height:12px; background-position:-48px 0px; margin:12px auto 2px;}
+.htr_dhl li a:hover span.icon9,.htr_dhl li a.select1 span.icon9{ display:block; width:16px; height:12px; background-position:-48px -25px; margin:12px auto 2px;}
+.htr_dhl li a span.icon10{ display:block; width:16px; height:17px; background-position:-70px 0px; margin:9px auto 0px;}
+.htr_dhl li a:hover span.icon10,.htr_dhl li a.select1 span.icon10{ display:block; width:16px; height:17px; background-position:-70px -25px; margin:9px auto 0px;}
+.htr_dhl li a span.icon11{ display:block; width:19px; height:18px; background-position:-91px 0px; margin:8px auto 0px;}
+.htr_dhl li a:hover span.icon11,.htr_dhl li a.select1 span.icon11{ display:block; width:19px; height:18px; background-position:-91px -25px; margin:8px auto 0px;}
+.htr_dhl li a span.icon12{ display:block; width:17px; height:14px; background-position:-114px 0px; margin:12px auto 0px;}
+.htr_dhl li a:hover span.icon12,.htr_dhl li a.select1 span.icon12{ display:block; width:17px; height:14px; background-position:-114px -25px; margin:12px auto 0px;}
+.htr_dhl li a span.icon13{ display:block; width:15px; height:15px; background-position:-136px 0px; margin:11px auto 0px;}
+.htr_dhl li a:hover span.icon13,.htr_dhl li a.select1 span.icon13{ display:block; width:15px; height:15px; background-position:-136px -25px; margin:11px auto 0px;}
+.htr_dhl li a span.icon14{ display:block; width:13px; height:18px; background-position:-155px 0px; margin:8px auto 0px;}
+.htr_dhl li a:hover span.icon14,.htr_dhl li a.select1 span.icon14{ display:block; width:13px; height:18px; background-position:-155px -25px; margin:8px auto 0px;}
+
+.htr_dhr{ width:auto; height:76px; position:absolute; right:10px; top:0;}
+.htr_out{ float:right; width:65px; height:30px; line-height:30px; margin-top:13px; background:#28b779;}
+.htr_out a{ display:block; color:#ffffff; text-indent:12px;}
+.htr_out a span{ display:block; width:14px; height:14px; background-position:0px -52px; margin-top:8px; margin-right:8px;}
+.htr_user{float:right; text-align:right; padding-right:20px; line-height:76px; color:#ffffff;}
+.htr_user a{ color:pink; padding-right:10px;font-size:14px;}
+/*end htr_dh*/
+
+/*ht_right start*/
+#ht_right{ position:relative; width:auto; background:#f3f4f5; margin-left:200px; z-index:9; height:1500px;}
+.ht_location{ width:100%; height:51px; background:#e5e5e5; border-bottom:1px solid #cccccc;}
+.ht_location span{ display:block; width:14px; height:18px; background-position:-16px -52px; margin-top:16px; margin-left:20px; float:left;}
+.ht_location p{ float:left; line-height:50px; padding-left:10px;}
+
+.ht_table{ margin-left:1%; margin-top:20px; border:1px solid #cccccc; margin-right:1%; background:#ffffff;}
+
+@media screen and (max-width:1360px){
+.htr_dhl li{ width:80px; height:76px; border-left:1px solid #414141; border-right:1px solid #000000; float:left;}
+}
+@media screen and (max-width:1024px){	
+/*ht_left start*/
+#ht_left{ left:0; width:50px; background:#282828;position:fixed;_position:absolute;top:0;_top:expression(eval(document.documentElement.scrollTop+0));}
+.ht_logo{ width:100%; height:54px; border-bottom:1px solid #000000; background:url(../images/logo1.png) no-repeat center;}
+.htl_dh{ width:100%; border-bottom:1px solid #414141; border-top:1px solid #414141;}
+.htl_dh dl{ width:100%; height:52px; border-bottom:1px solid #000000; border-top:1px solid #414141;}
+.htl_dh dl:hover,.htl_dh dl.select{ background:#28b779;}
+.htl_dh dt{ width:20px; height:52px; margin-left:15px; overflow:hidden;}
+.htl_dh dt p{ display:none;}
+.htl_dh dt span{ width:30px; height:34px; display:block; margin-top:18px; float:left; overflow:hidden;}
+.htl_dh dt span.icon1{ width:17px; height:16px; background-position:-233px -52px;}
+.htl_dh dt span.icon2{ width:16px; height:14px; background-position:-255px -52px; margin-top:20px;}
+.htl_dh dt span.icon3{ width:16px; height:16px; background-position:-212px -52px;}
+.htl_dh dt span.icon4{ width:16px; height:16px; background-position:-275px -52px;}
+.htl_dh dt span.icon5{ width:17px; height:16px; background-position:-295px -52px;}
+.htl_dh dt span.icon6{ width:19px; height:6px; background-position:-316px -52px; margin-top:24px;}
+.htl_dh dd{ display:none; width:6px; height:11px; background-position:-470px -52px; margin-top:21px; float:right;}
+.htl_dh dl.select dd{ display:block;}
+/*end ht_left*/
+
+/*htr_dh start*/
+.htr_dhl{ width:auto; height:76px; border-left:1px solid #000000; border-right:1px solid #414141; overflow:hidden; margin-left:50px;}
+.htr_dhl li{ width:60px; height:76px; border-left:1px solid #414141; border-right:1px solid #000000; float:left;}
+.htr_dhl li a span.icon7{ display:block; width:18px; height:17px; background-position:0px 0px; margin:19px auto 0px;}
+.htr_dhl li a:hover span.icon7,.htr_dhl li a.select1 span.icon7{ display:block; width:18px; height:17px; background-position:0px -25px; margin:19px auto 0px;}
+.htr_dhl li a span.icon8{ display:block; width:18px; height:15px; background-position:-24px 0px; margin:21px auto 0px;}
+.htr_dhl li a:hover span.icon8,.htr_dhl li a.select1 span.icon8{ display:block; width:18px; height:15px; background-position:-24px -25px; margin:21px auto 0px;}
+.htr_dhl li a span.icon9{ display:block; width:16px; height:12px; background-position:-48px 0px; margin:22px auto 2px;}
+.htr_dhl li a:hover span.icon9,.htr_dhl li a.select1 span.icon9{ display:block; width:16px; height:12px; background-position:-48px -25px; margin:22px auto 2px;}
+.htr_dhl li a span.icon10{ display:block; width:16px; height:17px; background-position:-70px 0px; margin:19px auto 0px;}
+.htr_dhl li a:hover span.icon10,.htr_dhl li a.select1 span.icon10{ display:block; width:16px; height:17px; background-position:-70px -25px; margin:19px auto 0px;}
+.htr_dhl li a span.icon11{ display:block; width:19px; height:18px; background-position:-91px 0px; margin:18px auto 0px;}
+.htr_dhl li a:hover span.icon11,.htr_dhl li a.select1 span.icon11{ display:block; width:19px; height:18px; background-position:-91px -25px; margin:18px auto 0px;}
+.htr_dhl li a span.icon12{ display:block; width:17px; height:14px; background-position:-114px 0px; margin:22px auto 0px;}
+.htr_dhl li a:hover span.icon12,.htr_dhl li a.select1 span.icon12{ display:block; width:17px; height:14px; background-position:-114px -25px; margin:22px auto 0px;}
+.htr_dhl li a span.icon13{ display:block; width:15px; height:15px; background-position:-136px 0px; margin:21px auto 0px;}
+.htr_dhl li a:hover span.icon13,.htr_dhl li a.select1 span.icon13{ display:block; width:15px; height:15px; background-position:-136px -25px; margin:21px auto 0px;}
+.htr_dhl li a span.icon14{ display:block; width:13px; height:18px; background-position:-155px 0px; margin:18px auto 0px;}
+.htr_dhl li a:hover span.icon14,.htr_dhl li a.select1 span.icon14{ display:block; width:13px; height:18px; background-position:-155px -25px; margin:18px auto 0px;}
+.htr_dhl li a p{ display:none;}
+/*end htr_dh*/
+
+/*ht_right start*/
+#ht_right{ position:relative; width:auto; background:#ffffff; margin-left:50px; height:720px;}
+/*end ht_right*/
+}
+
+@media screen and (max-width:850px){
+.htr_user{ display:none;}
+}
+@media screen and (max-width:640px){
+.ht_infor .htpic{ display:none;}
+.ht_infor .htnum{ text-align:center; width:100%;}
+}

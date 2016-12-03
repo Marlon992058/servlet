@@ -1,0 +1,11 @@
+*{margin:0px;padding:0px;}
+body{font-size:12px;font-family:Î¢ÈíÑÅºÚ;}
+.tz_table{margin:5% 26%;}
+.tz_table ul{float:left;}
+.tz_table ul li{height:38px;line-height:35px;}
+.tz_table ul li .tz_btn{width:80px;height:32px;border:1px solid green;border-radius:5px;margin:0px auto;}
+.tz_table ul.tz_u-id li{list-style-type:none;border:1px solid #111;text-indent: 20px;width: 150px;line-height: 38px;font-size: 18px;font-weight:600;}
+.tz_table ul.tz_u-account li{list-style-type:none;border:1px solid #111;width: 200px;line-height: 38px;font-size:20px;}
+.tz_table ul.tz_u-account li.tz_op-center{text-indent:25px;}
+.tz_table ul.tz_u-account li input{width:200px;height:37px;border:0;text-indent: 15px;font-size:18px;}
+.tz_table ul.tz_u-account li input.tz_btn{width:80px;height:32px;border:1px solid green;border-radius:5px;margin-left:50px;}

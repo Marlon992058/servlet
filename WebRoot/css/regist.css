@@ -1,0 +1,35 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+a{text-decoration:none;cursor:pointer;}
+li{list-style:none;}
+img{border:none;}
+html,body{ font-size:16px;font-family:"微软雅黑";overflow-x:hidden;}
+
+.wrapper{width:1120px;margin:0px auto;}
+.wrapper .title{width:400px;height:38px;margin:10px auto;line-height:40px;text-align:center;font-size:20px;font-weight:700;letter-spacing:1.6px;}
+.left{float:left;}
+.right{float:right;}
+.clearfix:after{content:".";display:block;clear:both;font-size:0;overflow:hidden;height:0;}
+.clearfix{zoom:1;}
+
+/* zcform */
+.zcform{margin:0px 125px 0px 360px;}
+.zcform p{margin-bottom:8px;position:relative;}
+.zcform a{ color:#ff7702;}
+.zcform a.login{position:absolute;padding:15px 0px 5px 8px;position: absolute;}
+.zcform p.last{margin-left:310px;font-size:16px;}
+.zcform p.last input{ cursor:pointer;}
+.zcform label{display:block;float:left;height:48px;line-height:48px;color:#F00;text-indent:10px;}
+.zcform label.degree{line-height: 30px;color: #0F0E0E;}
+.zcform span{display:block;float:left;height:48px;line-height:48px;text-indent:10px;}
+.zcform span.one{width:90px;height:48px;text-align:right;color:#000;}
+.zcform input{float:left;font-size:16px;font-family:"微软雅黑";color:#666;}
+.zcform select{font-size:16px;font-family:"微软雅黑";}
+.zcform select option{font-size:16px;font-family:"微软雅黑";text-indent:2em;}
+.zcform .submit{margin-left:-180px;background:#F93;font-size:20px;letter-spacing:4px;color:#fff;cursor:pointer;}
+.zcform .submit a{position:absolute;top:0px;left:0px;}
+
+#username,#telphone,#password,#confirm_password,.submit,#idcard,select{border:1px solid #ccc;width:300px;height:46px;text-indent:10px;}
+.get_code{height:48px;width:110px;margin-left:10px;border:1px solid #ccc;cursor:pointer;}
+.agreement{margin-left:90px;height:30px;line-height:30px;font-size:12px;}
+.agreement input{display:block;line-height:30px;height:12px;margin:8px 8px 0 5px;border:none;width:12px;}

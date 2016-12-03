@@ -1,0 +1,26 @@
+*{margin:0;padding:0;}
+body{font-size:12px;font-family:"Î¢ÈíÑÅºÚ";}
+img{border:0px;}
+/*--------top start-------*/
+.top{width:100%;height:150px;background:url("/marlon/images/t_bg.JPG");position:fixed;top:0px;left:0px;z-index:100;}
+.top .head{width:1000px;height:105px;margin:0px auto;}
+.top .head .logo{float:left;}
+.top .head .right{float:right;}
+.clear{clear:both;}
+.top .nav{width:1100px;height:40px;margin:0px auto;}
+.top .nav ul li{list-style:none;float:left;margin-top:0px;}
+.top .nav ul li a{text-decoration:none;display:block;padding:3px 28px;font-size:14px;color:#fff;line-height:35px;}
+.top .nav .user{width:320px;height:35px;float:right;font-size:16px;color:#e5e5e5;line-height:35px;margin-left:10px;}
+.top .nav .user b{font-size:24px;color:rgb(56, 203, 102);}
+.top .nav .user a{text-decoration:none;color:gray;}
+.top .nav .user a:hover{color:red;}
+/*.top .nav ul li a.hover{background-color:#000033;}*/
+
+/*--------bottom start-------*/
+.bottom{width:100%;height:140px;background:#ececec;border-top: 1px solid #D0CCCC}
+.bottom .btm{width:1000px;height:140px;background:url("/marlon/images/bottom.JPG");margin:0px auto;}
+.bottom .btm .up{width:1000px;height:58px;border:1px solid #ececec;}
+.bottom .btm .up p{margin:20px 180px;}
+.bottom .btm .up p a{text-decoration:none; font-size:14px;color:#0000ff;font-size:14px;margin:14px;}
+.bottom .btm .down{width:1000px;height:81px;}
+.bottom .btm .down p{margin:2px;text-align:center;line-height:1.4;}
